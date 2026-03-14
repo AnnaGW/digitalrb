@@ -8,6 +8,8 @@
   color: var(--headline-primary-color);
   text-align: center;
   background: linear-gradient(130deg, #8624E1 25%, #3607A6 100%);
+  box-shadow:  0px 6px 15px rgba(0, 0, 0, 0.3);
+  z-index: 10;
 }
 
 .headerOOO {

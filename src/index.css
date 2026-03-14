@@ -84,7 +84,9 @@ html {
 
 	--menu-toggle-bg: rgb(212, 205, 191);
 
-	--border-radius: 5px;
+	--border-radius: 4px;
+
+	--header-height: 160px;
 
 	--break-midi: 980px;
 	--break-mobile: 480px;

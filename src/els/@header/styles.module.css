@@ -5,6 +5,9 @@
   padding-bottom: 50px;
   font-family: OpenSansBold, OpenSans, Verdana, sans-serif;
   font-weight: 900;
+  color: var(--headline-primary-color);
+  text-align: center;
+  background: linear-gradient(130deg, #8624E1 25%, #3607A6 100%);
 }
 
 .headerOOO {

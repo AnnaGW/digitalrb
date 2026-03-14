@@ -30,3 +30,10 @@ export const BASE_URL = import.meta.env.BASE_URL;
 // 		? pathName.slice(BASE_URL.length - 1) || '/'
 // 		: pathName;
 // };
+
+export enum WeCanName {
+	Consult = 'Проконсультировать',
+	Project = 'Спроектировать',
+	Install = 'Выполнить монтаж',
+	Service = 'Провести обслуживание',
+}

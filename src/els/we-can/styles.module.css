@@ -1,0 +1,55 @@
+.weCanItemWrap {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  height: 225px;
+  padding: 30px;
+  font-family: OpenSansBold, OpenSans, Verdana, sans-serif;
+  font-weight: 700;
+  border-radius: var(--border-radius);
+  background-color: #ffffff;
+}
+
+.weCanIconWrap {
+  width: 82px;
+  height: 82px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.weCanIcon1{
+  background-color: rgba(122, 105, 230, 0.3); /*#7a69e6*/
+}
+
+.weCanIcon2{
+  background-color: rgba(250, 94, 93, 0.3);
+}
+
+.weCanIcon3{
+  background-color: rgba(249, 141, 94, 0.3);
+}
+
+.weCanIcon4{
+  background-color: rgba(118, 206, 68, 0.3);
+}
+
+.weCanName {
+  font-size: 18px;
+  color: var(--headline-secondary-color);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.weCanLink{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px 20px;
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  box-shadow: rgba(110, 130, 208, 0.14) 0px 2px 30px 0px;
+}

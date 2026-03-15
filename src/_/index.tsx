@@ -4,6 +4,7 @@ import { WeCanItem } from '~/els/we-can';
 import { CompetenceName, WeCanName, Contact } from '~/const';
 import { CompetenceItem } from '~/els/competence';
 import { ContactItem } from '~/els/contact';
+import { Footer } from '~/els/@footer';
 
 function MainLayout() {
 	return (
@@ -53,6 +54,7 @@ function MainLayout() {
 					<ContactItem data={Contact.time} />
 				</div>
 			</section>
+			<Footer />
 		</div>
 	);
 }

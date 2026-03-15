@@ -1,8 +1,9 @@
 import { Header } from '~/els/@header';
 import s from './styles.module.css';
 import { WeCanItem } from '~/els/we-can';
-import { CompetenceName, WeCanName } from '~/const';
+import { CompetenceName, WeCanName, Contact } from '~/const';
 import { CompetenceItem } from '~/els/competence';
+import { ContactItem } from '~/els/contact';
 
 function MainLayout() {
 	return (
@@ -43,6 +44,13 @@ function MainLayout() {
 						<CompetenceItem name={CompetenceName.Cabling} />
 						<CompetenceItem name={CompetenceName.Notification} />
 					</div>
+				</div>
+			</section>
+			<section className={s.contacts} id="contacts">
+				<div className={s.contactsWrap}>
+					<ContactItem data={Contact.office} />
+					<ContactItem data={Contact.write} />
+					<ContactItem data={Contact.time} />
 				</div>
 			</section>
 		</div>

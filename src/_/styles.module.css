@@ -117,6 +117,16 @@
   margin: 0 auto;
 }
 
-.competenceWrap2 {
-  
+.contacts {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.contactsWrap {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }

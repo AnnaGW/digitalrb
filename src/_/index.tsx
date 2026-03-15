@@ -1,7 +1,8 @@
 import { Header } from '~/els/@header';
 import s from './styles.module.css';
 import { WeCanItem } from '~/els/we-can';
-import { WeCanName } from '~/const';
+import { CompetenceName, WeCanName } from '~/const';
+import { CompetenceItem } from '~/els/competence';
 
 function MainLayout() {
 	return (
@@ -21,12 +22,27 @@ function MainLayout() {
 				</div>
 			</section>
 			<section className={s.weCan}>
-				<h2 className={s.weCanHeadline}>Мы можем</h2>
+				<h2 className={s.weCanHeadline}>Мы можем:</h2>
 				<div className={s.weCanWrap}>
 					<WeCanItem name={WeCanName.Consult} />
 					<WeCanItem name={WeCanName.Project} />
 					<WeCanItem name={WeCanName.Install} />
 					<WeCanItem name={WeCanName.Service} />
+				</div>
+			</section>
+			<section className={s.competence}>
+				<h2 className={s.competenceHeadline}>Направления наших компетенций</h2>
+				<div className={s.competenceWrap}>
+					<div className={s.competenceWrap2}>
+						<CompetenceItem name={CompetenceName.Safety} />
+						<CompetenceItem name={CompetenceName.Electrical} />
+						<CompetenceItem name={CompetenceName.Surveillance} />
+					</div>
+					<div className={s.competenceWrap2}>
+						<CompetenceItem name={CompetenceName.Access} />
+						<CompetenceItem name={CompetenceName.Cabling} />
+						<CompetenceItem name={CompetenceName.Notification} />
+					</div>
 				</div>
 			</section>
 		</div>

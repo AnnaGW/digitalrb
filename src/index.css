@@ -66,9 +66,9 @@ html {
 	scroll-behavior: smooth;
 
 	--primary-font-color: rgb(181, 181, 181);
-	--secondary-font-color: rgb(102, 102, 102);
+	--secondary-font-color: rgb(102, 102, 102); /* #666666 */
   --headline-primary-color: rgb(255,255,255);
-	--headline-secondary-color: rgb(51,51,51);
+	--headline-secondary-color: rgb(51,51,51); /*#333333*/
 
 	--main-bg-color: rgb(242, 242, 250);
 	--bg-color-2: rgb(168, 160, 144);
@@ -79,6 +79,7 @@ html {
 
 	--current-link-color: rgb(102, 102, 102); /* #666666 */
 	--link-color: rgb(68, 68, 68); /* #444444 */
+	
 
 	--shadow-1: rgba(0, 0, 0, 0.6);
 

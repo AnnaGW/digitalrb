@@ -23,21 +23,6 @@ export function EmailIco({ width, height }: IconProps) {
 		c0,10.637,2.978,20.498,7.789,29.174l153.183-171.44L9.448,89.085z"
 				/>
 			</g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
 		</svg>
 	);
 }

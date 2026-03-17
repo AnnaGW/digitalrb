@@ -9,7 +9,7 @@ export function InstallIco({ width, height }: IconProps) {
 			height={height}
 			viewBox="0 0 512 512"
 		>
-			<title>Спроектируем</title>
+			<title>Выполним монтаж</title>
 			<g>
 				<path
 					fill="currentColor"

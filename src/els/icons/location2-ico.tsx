@@ -23,21 +23,6 @@ export function Location2Ico({ width, height }: IconProps) {
 				fill="currentColor"
 				d="M23.206,46.412c-0.036-0.047-0.07-0.092-0.105-0.139c-0.036,0.047-0.07,0.091-0.106,0.139H23.206z"
 			/>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
 		</svg>
 	);
 }

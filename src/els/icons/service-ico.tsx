@@ -9,7 +9,7 @@ export function ServiceIco({ width, height }: IconProps) {
 			height={height}
 			viewBox="0 0 1800 1800"
 		>
-			<title>Спроектируем</title>
+			<title>Проведем обслуживание</title>
 			<g>
 				<path
 					fill="currentColor"
@@ -84,12 +84,6 @@ export function ServiceIco({ width, height }: IconProps) {
 		c83.478,0,159.001,52.638,187.936,130.979C1550.672,509.646,1497.503,625.071,1393.896,663.338z"
 				/>
 			</g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
 		</svg>
 	);
 }

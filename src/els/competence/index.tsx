@@ -3,6 +3,12 @@ import { useState, type ReactElement } from 'react';
 import s from './styles.module.css';
 import { cn } from '~/els/@common/cn';
 import { CompetenceDesc, CompetenceName } from '~/const';
+import { SafetyIco } from '../icons/safety-ico';
+import { InstallIco } from '../icons/install-ico';
+import { SurveillanceIco } from '../icons/surveillance-ico';
+import { AccessIco } from '../icons/access-ico';
+import { CablingIco } from '../icons/cabling-ico';
+import { NotificationIco } from '../icons/notification-ico';
 
 type CompetenceProps = {
 	name: string;
@@ -24,7 +30,24 @@ export const CompetenceItem = ({ name }: CompetenceProps): ReactElement => {
 						[s.competenceIcon5]: name === CompetenceName.Cabling,
 						[s.competenceIcon6]: name === CompetenceName.Notification,
 					})}
-				></div>
+				>
+					{
+						{
+							[CompetenceName.Safety]: <SafetyIco width={64} height={64} />,
+							[CompetenceName.Electrical]: (
+								<InstallIco width={64} height={64} />
+							),
+							[CompetenceName.Surveillance]: (
+								<SurveillanceIco width={64} height={64} />
+							),
+							[CompetenceName.Access]: <AccessIco width={64} height={64} />,
+							[CompetenceName.Cabling]: <CablingIco width={64} height={64} />,
+							[CompetenceName.Notification]: (
+								<NotificationIco width={64} height={64} />
+							),
+						}[name]
+					}
+				</div>
 				<p className={s.competenceName}>{name}</p>
 			</div>
 			<p className={s.competenceLink} onClick={openDescToggle}>

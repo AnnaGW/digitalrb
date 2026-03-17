@@ -32,21 +32,6 @@ export function HomeIco({ width, height }: IconProps) {
 					/>
 				</g>
 			</g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
-			<g></g>
 		</svg>
 	);
 }

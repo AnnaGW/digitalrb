@@ -12,26 +12,31 @@
 }
 
 .weCanIconWrap {
-  width: 82px;
-  height: 82px;
+  width: 36px;
+  height: 36px;
+  padding: 23px;
   margin: 0 auto;
   margin-bottom: 30px;
   border-radius: 50%;
 }
 
 .weCanIcon1{
-  background-color: rgba(122, 105, 230, 0.3); /*#7a69e6*/
+  color: #7a69e6;
+  background-color: rgba(122, 105, 230, 0.3); /*#7a69e6*/  
 }
 
 .weCanIcon2{
+  color: #fa5e5d;
   background-color: rgba(250, 94, 93, 0.3);
 }
 
 .weCanIcon3{
+  color: #f98d5e;
   background-color: rgba(249, 141, 94, 0.3);
 }
 
 .weCanIcon4{
+  color: #76ce44;
   background-color: rgba(118, 206, 68, 0.3);
 }
 

@@ -91,27 +91,10 @@ html {
 
 	--break-midi: 980px;
 	--break-mobile: 480px;
-}
 
-/* @font-face {
-	font-style: normal;
-	font-weight: normal;
-	font-family: 'Vollkorn';
-	font-display: swap;
-	src:
-		local('Vollkorn'),
-		url('../public/fonts/Vollkorn.woff2') format('woff2');
+	--scroll-color: rgb(54, 7, 166); /* #3607A6 */
+	--scroll-color-2: rgb(134, 36, 225); /* #8624E1 */
 }
-
-@font-face {
-	font-style: italic;
-	font-weight: normal;
-	font-family: 'Vollkorn';
-	font-display: swap;
-	src:
-		local('Vollkorn Italic'),
-		url('../public/fonts/Vollkorn-Italic.woff2') format('woff2');
-} */
 
 .visuallyHidden {
 	position: absolute;
@@ -208,7 +191,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: var(--primary-font-color);
+	background-color: var(--scroll-color);
 	border-radius: 0.25rem;
 }
 
@@ -224,15 +207,16 @@ body::-webkit-scrollbar-thumb {
 	/*} */
 
 	::-webkit-scrollbar-thumb {
-		background-color: var(--primary-font-color);
-		border-radius: 0.25rem;
+		background-color: var(--scroll-color);
+		/* border-radius: 0.25rem; */
+		border-radius: 0.5rem;
 		border: 0.125rem solid transparent;
 		background-clip: padding-box;
 		transition: background-color 0.3s ease;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
-		background-color: var(--secondary-font-color);
+		background-color: var(--scroll-color-2);
 	}
 }
 
@@ -240,10 +224,10 @@ body::-webkit-scrollbar-thumb {
 @supports (scrollbar-color: auto) and (-moz-appearance: none) {
 	* {
 		scrollbar-width: thin;
-		scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+		scrollbar-color: var(--scroll-color) transparent;
 	}
 
 	*:hover {
-		scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+		scrollbar-color: var(--scroll-color-2) transparent;
 	}
 }

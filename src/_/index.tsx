@@ -20,7 +20,9 @@ function MainLayout() {
 					<p className={s.aboutElse}>
 						А ТАК ЖЕ <br /> ЭЛЕКТРОМОНТАЖ И СИСТЕМЫ ОПОВЕЩЕНИЯ
 					</p>
-					<a className={s.aboutBegin}>Начнем сотрудничать?</a>
+					<a className={s.aboutBegin} href="#contacts">
+						Начнем сотрудничать?
+					</a>
 				</div>
 			</section>
 			<section className={s.weCan}>

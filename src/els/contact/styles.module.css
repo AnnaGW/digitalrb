@@ -9,20 +9,27 @@
 }
 
 .contactIcon {
-  width: 82px;
-  height: 82px;
+  width: 48px;
+  height: 48px;
+  padding: 18px;
   margin: 0 auto;
   margin-bottom: 30px;
-  border-radius: 50%;
+  border-radius: 50%;  
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contactIcon1 {
-  background-color: rgba(122, 105, 230, 0.3);
+  color: #7a69e6;
+  background-color: rgba(122, 105, 230, 0.3);  
 }
 .contactIcon2 {
+  color: #fa5e5d;
   background-color: rgba(250, 94, 93, 0.3);
 }
 .contactIcon3 {
+  color: #f98d5e;
   background-color: rgba(249, 141, 94, 0.3);
 }
 

@@ -1,7 +1,4 @@
 .helloScreen {
-  /* box-sizing: border-box; */
-  /* height: calc(100vh - var(--header-height)); */
-  /* padding: 30px 0; */
   position: relative;
   min-height: 640px;
   color: var(--headline-primary-color);
@@ -130,4 +127,64 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+@media (orientation: portrait) and (max-width: 480px) {
+  .aboutScreen {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .aboutService {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+
+  .aboutHeadline {
+    font-size: 44px;
+  }
+
+  .aboutBegin {
+    width: 100%;
+  }
+
+  .weCan {
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+
+  .weCanHeadline {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .weCanWrap{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .competenceHeadline {
+    font-size: 32px;
+  }
+
+  .competence {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+
+  .competenceWrap {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contactsWrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
 }

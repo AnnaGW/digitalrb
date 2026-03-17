@@ -19,7 +19,7 @@ export const CompetenceItem = ({ name }: CompetenceProps): ReactElement => {
 		setIsDEskOpen(!isDescOpen);
 	};
 	return (
-		<div className={s.competenceWrap}>
+		<div className={s.competenceItemWrap}>
 			<div className={s.competenceInnerWrap}>
 				<div
 					className={cn(s.competenceIconWrap, {

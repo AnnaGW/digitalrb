@@ -6,10 +6,14 @@
   font-size: 16px;
   line-height: 1;    
   background: linear-gradient(130deg, #8624E1 25%, #3607A6 100%);
-  /* box-shadow:  0px 6px 15px rgba(0, 0, 0, 0.3);
-  z-index: 10; */
 }
 
 .footerDetails {
   color: #ffffff;
+}
+
+@media (orientation: portrait) and (max-width: 480px) {
+  .footer {
+    padding-left: 30px;
+  }
 }

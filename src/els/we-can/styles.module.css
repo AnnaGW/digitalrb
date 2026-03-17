@@ -81,3 +81,11 @@
 .weCanLink4:hover{
   color: #76ce44;
 }
+
+@media (orientation: portrait) and (max-width: 480px) {
+  .weCanItemWrap {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

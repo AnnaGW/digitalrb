@@ -1,4 +1,4 @@
-.competenceWrap {
+.competenceItemWrap {
   box-sizing: border-box;
   width: 510px;
   margin-bottom: 60px;
@@ -95,4 +95,11 @@
 
 .displayNone {
   height: 0;
+}
+
+@media (orientation: portrait) and (max-width: 480px) {
+  .competenceItemWrap {
+    box-sizing: border-box;
+    width: 100%;
+  }
 }

@@ -47,7 +47,7 @@
   word-wrap: break-word;
 }
 
-.weCanLink{
+.weCanLink{  
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -55,7 +55,29 @@
   padding: 10px 20px;
   font-size: 14px;
   letter-spacing: 5px;
+  color: var(--current-link-color);
   text-transform: uppercase;
   background-color: #ffffff;
   box-shadow: rgba(110, 130, 208, 0.14) 0px 2px 30px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.weCanLink:hover {    
+  letter-spacing: 8px;
+}
+
+.weCanLink1:hover{
+  color: #7a69e6; 
+}
+
+.weCanLink2:hover{
+  color: #fa5e5d;
+}
+
+.weCanLink3:hover{
+  color: #f98d5e;
+}
+
+.weCanLink4:hover{
+  color: #76ce44;
 }

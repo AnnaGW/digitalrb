@@ -32,7 +32,15 @@ export const WeCanItem = ({ name }: WeCanItemProps): ReactElement => {
 				}
 			</div>
 			<p className={s.weCanName}>{name}</p>
-			<a className={s.weCanLink} href="#contacts">
+			<a
+				className={cn(s.weCanLink, {
+					[s.weCanLink1]: name === WeCanName.Consult,
+					[s.weCanLink2]: name === WeCanName.Project,
+					[s.weCanLink3]: name === WeCanName.Install,
+					[s.weCanLink4]: name === WeCanName.Service,
+				})}
+				href="#contacts"
+			>
 				Подробнее
 			</a>
 		</div>

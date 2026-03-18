@@ -7,8 +7,8 @@ export const getBase = (route: string): string => {
 	if (import.meta.env.MODE === 'development') {
 		return route;
 	}
-	// return `/predel2026${route}`;
-	return route;
+	return `/digitalrb${route}`;
+	// return route;
 	// return `https://predelufa.ru${route}`;
 };
 

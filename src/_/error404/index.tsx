@@ -2,6 +2,8 @@ import { AppRoute } from '~/const';
 import s from './styles.module.css';
 
 function Error404() {
+	console.log('window.location.pathname - ', window.location.pathname);
+	console.log('AppRoute.MainPage - ', AppRoute.MainPage);
 	return (
 		<div className={s.wrap404}>
 			<div className={s.innerWrap}>

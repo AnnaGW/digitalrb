@@ -9,7 +9,8 @@ export const getBase = (route: string): string => {
 	} else if (window.location.pathname.includes('github.io')) {
 		return `/digitalrb${route}`;
 	}
-	return route;
+	return `/digitalrb${route}`;
+	// return route;
 };
 
 export const AppRoute = {

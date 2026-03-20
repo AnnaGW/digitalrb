@@ -1,5 +1,6 @@
 import { Header } from '~/els/@header';
 import s from './styles.module.css';
+import { AppRoute } from '~/const';
 import { WeCanItem } from '~/els/we-can';
 import { CompetenceName, WeCanName, Contact } from '~/const';
 import { CompetenceItem } from '~/els/competence';
@@ -7,6 +8,8 @@ import { ContactItem } from '~/els/contact';
 import { Footer } from '~/els/@footer';
 
 function MainLayout() {
+	console.log('window.location.pathname - ', window.location.pathname);
+	console.log('AppRoute.MainPage - ', AppRoute.MainPage);
 	return (
 		<div>
 			<Header />

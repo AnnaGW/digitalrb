@@ -54,6 +54,10 @@ function MainLayout() {
 					<ContactItem data={Contact.office} />
 					<ContactItem data={Contact.write} />
 					<ContactItem data={Contact.time} />
+					<ContactItem
+						data={Contact.partnerCard}
+						node={<a href="files/DigitalRB_Partner_Card.docx">Загрузить</a>}
+					/>
 				</div>
 			</section>
 			<Footer />

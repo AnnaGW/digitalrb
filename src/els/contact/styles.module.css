@@ -1,6 +1,6 @@
 .contactWrap {
   box-sizing: border-box;
-  width: 420px;
+  width: 300px;
   height: 290px;  
   padding: 30px;  
   border-radius: var(--border-radius);
@@ -31,6 +31,11 @@
 .contactIcon3 {
   color: #f98d5e;
   background-color: rgba(249, 141, 94, 0.3);
+}
+
+.contactIcon4 {
+  color: #76ce44;
+  background-color: rgba(118, 206, 68, 0.3);
 }
 
 .contactName {  

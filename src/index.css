@@ -29,7 +29,7 @@ html {
 	font-display: swap;
 	src:
 		local('Open Sans'),
-		url('../public/fonts/OpenSans-Bold.woff2') format('woff2');
+		url('../fonts/OpenSans-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -39,7 +39,7 @@ html {
 	font-display: swap;
 	src:
 		local('OpenSans'),
-		url('../public/fonts/OpenSans-Regular.woff2') format('woff2');
+		url('../fonts/OpenSans-Regular.woff2') format('woff2');
 }
 
 :root {

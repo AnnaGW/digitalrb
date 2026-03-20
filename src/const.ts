@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react';
+
 export enum InternalRoute {
 	MainPage = '/',
 	About = '/about',
@@ -77,5 +79,10 @@ export const Contact: Record<string, ContactType> = {
 		name: 'Часы приема',
 		desc1: 'Пн-Пт: 10:00 — 17:00',
 		desc2: 'Сб-Вс: выходной',
+	},
+	partnerCard: {
+		name: 'Карта партнера',
+		desc1: '',
+		desc2: '',
 	},
 };

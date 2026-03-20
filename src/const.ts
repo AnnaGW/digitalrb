@@ -1,5 +1,3 @@
-import type { ReactNode } from 'react';
-
 export enum InternalRoute {
 	MainPage = '/',
 	About = '/about',
@@ -8,10 +6,10 @@ export enum InternalRoute {
 export const getBase = (route: string): string => {
 	if (import.meta.env.MODE === 'development') {
 		return route;
+	} else if (window.location.pathname.includes('github.io')) {
+		return `/digitalrb${route}`;
 	}
-	return `/digitalrb${route}`;
-	// return route;
-	// return `https://predelufa.ru${route}`;
+	return route;
 };
 
 export const AppRoute = {

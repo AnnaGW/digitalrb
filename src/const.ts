@@ -4,13 +4,13 @@ export enum InternalRoute {
 }
 
 export const getBase = (route: string): string => {
-	if (import.meta.env.MODE === 'development') {
-		return route;
-	} else if (window.location.pathname.includes('github.io')) {
+	// if (import.meta.env.MODE === 'development') {
+	// 	return route;
+	// } else
+	if (window.location.href.includes('github.io')) {
 		return `/digitalrb${route}`;
 	}
-	return `/digitalrb${route}`;
-	// return route;
+	return route;
 };
 
 export const AppRoute = {
